@@ -88,7 +88,7 @@ parent_dir = os.path.abspath(current_dir + "/../../../")
 
 STATICFILES_DIRS = (
     #os.path.join(os.path.dirname(__file__),'static'),
-    os.path.join(parent_dir,'front-end/phyro'),
+    os.path.join(parent_dir,'front-end/'),
 )
 
 TEMPLATE_DIRS = (
