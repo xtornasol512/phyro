@@ -1,0 +1,12 @@
+@import url("http://fonts.googleapis.com/css?family=Lato:300,400,700");
+body, h1, h2, h3, h4, h5, p{
+    font-family: "Lato", "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight:300;
+}
+.top-bar {
+box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.18);
+background: none repeat scroll 0% 0% rgba(247, 247, 247, 0.976);
+}
+.top-bar.expanded .title-area {
+background: none repeat scroll 0% 0% rgba(247, 247, 247, 0.976);
+}
