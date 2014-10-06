@@ -1,0 +1,81 @@
+{% extends "blocks/base.html" %}
+{% block header %}
+<div class="fixed">
+    <nav class="top-bar" data-topbar role="navigation">
+        <ul class="title-area">
+            <li class="name"><h1><a href="/" data-dropdown="mainMenu" data-options="is_hover:true"><img width="54" src="{{STATIC_URL}}img/logos/logo_phyroServer_150x150.png" alt="Agencia de Diseño, Desarrollo Web y Marketing Online"> Phyro Server</a></h1></li>
+        </ul>
+        <ul id="mainMenu" class="f-dropdown" data-dropdown-content>
+          <li><a href="/about-us">Acerca de Nosotros</a></li>
+          <li><a href="/team">Nuestro Equipo</a></li>
+          <li><a href="/nuestro-trabajo">Portafolio</a></li>
+        </ul>
+        <section class="top-bar-section">
+            
+            <ul class="right">
+              <li class="active"><a href="/lo-que-hacemos" data-dropdown="mainServicios" data-options="is_hover:true">SERVICIOS</a></li>
+              <li class="divider"></li>
+              <li><a class="" href="/team">TEAM</a></li>
+              <li class="divider"></li>
+              <li><a href="#">BLOG</a></li>
+              <li class="divider"></li>
+              <li class="has-form">
+                <a href="/contacto" class="button">Contactanos!</a>
+              </li>
+            </ul>
+            
+        </section>
+            <ul id="mainServicios" class="f-dropdown" data-dropdown-content>
+              <li><a href="/lo-que-hacemos/ecommerce">Ecommerce</a></li>
+              <li><a href="/lo-que-hacemos/websites">Páginas Web</a></li>
+              <li><a href="/lo-que-hacemos/ux-ui-design">Diseño UX y UI</a></li>
+              <li><a href="/lo-que-hacemos/marketing-online">Marketing Online</a></li>
+              <li><a href="/lo-que-hacemos/aplicaciones-web">Desarrollo de Aplicaciones Web</a></li>
+            </ul>
+    </nav>
+    
+</div>
+
+    
+{% endblock %}
+{% block footer %}
+<footer class="mainFooter">
+    <section class="row" id="newsletter">
+        <div class="medium-6 columns text-center">
+            <p> <strong>Únete a nuestro Newsletter si quieres saber más de Desarrollo, Diseño y Marketing Online </strong><em> ¡También lanzamos ofertas especiales!</em></p>
+        </div>
+        <div class="medium-6 columns text-center">
+            <form action="#" method="">
+                <div class="row collapse postfix-round">
+                    <div class="small-10 columns">
+                      <input type="email" name="newsletterMail" placeholder="Escribe aquí tu email" required>
+                    </div>
+                    <div class="small-2 columns">
+                      <a href="#" name="envNewsletter" class="button postfix round">Enviar</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+    <section class="row" id="sitemap">
+ 
+        
+    </section>
+    <section class="row text-center" id="fooContacto">
+        <div class="medium-4 columns medium-text-right">
+            <p><a href="mailto:hello@phyroserver.com">hello@phyroserver.com</a></p>
+        </div>
+        <div class="medium-4 columns">
+            <a href="/"><img width="54" src="{{STATIC_URL}}img/logos/logo_phyroServer_150x150.png" alt="Agencia de Diseño, Desarrollo Web y Marketing Online"></a>
+            <p><a href="/contacto">Desarrollamos tus Ideas</a></p>
+        </div>
+        <div class="medium-4 columns medium-text-left">
+            <ul class="inline-list">
+                <li><a href="/facebook"><i class="icon-facebook3"></i></a></li>
+                <li><a href="/twitter"><i class="icon-twitter"></i></a></li>
+                <li><a href="/g+"><i class="icon-googleplus2"></i></a></li>
+            </ul>
+        </div>
+    </section>    
+</footer>
+{% endblock footer %}

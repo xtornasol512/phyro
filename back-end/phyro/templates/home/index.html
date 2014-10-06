@@ -1,10 +1,42 @@
-{% extends "home/header.html" %}
-{% block title %}{% block og_title %}Phyro | El lugar donde se desarrollan tus ideas.{% endblock og_title%}{%endblock title%}
-{% block descripcion %}{% block og_descripcion %}Agencia donde ayudamos a las marcas a crear Marketing Digital, Diseño y Desarrollo web donde tomamos las ideas de nuestros clientes y les damos vida, vida dígital.
-{% endblock og_descripcion %}{% endblock descripcion %}
-{% block keywords %}ecommerce, website,  marketing online, diseño, desarrollo, tehuacan, aplicaciones web{% endblock keywords %}
-{% block rel_canonical%}http://phyroserver.com/{% endblock rel_canonical%}
-{% block og_img %}{% endblock og_img %}
-{% block moreCss %}{% endblock moreCss %}
+{% extends "home/index_SEO.html" %}
+{% block contenido %}
+<section class="mainHeader">
+    <div class="row">
+        <div class="large-12 columns text-center">
+            <h1>Estudio Creativo Dígital</h1>
+            <h2><a href="/lo-que-hacemos/ecommerce">Web-Ecommerce</a></h2>
+            <h5>Desarrollamos las ideas de las empresas, para acercarse y entender a sus clientes</h5>
+        </div>
+        <div class="medium-6 medium-centered columns text-center">
+            <form action="#" method="">
+                <div class="row collapse postfix-round">
+                    <div class="small-10 columns">
+                      <input type="email" name="newsletterMail" placeholder="Escribe aquí tu email" required>
+                    </div>
+                    <div class="small-2 columns">
+                      <a href="#" name="envCallToAction" class="button postfix round">Enviar</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+</section>
+<section class="afterHero">
+    <section class="row">
+        <div class="medium-6 columns text-center">
+            <h2><a href="/team">Quienes Somos</a></h2>
+            <h5>Un <a href="/team">Equipo versatil</a> de Diseño, Desarrollo y Mkt Online</h5>
+            <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt placeat facere delectus porro, dolore, perferendis quisquam aut illo doloribus, ducimus earum. Quaerat, aut? Aut, cumque dolor, minus eius quibusdam placeat!</p>
+            <p>¡Escuchamos tu idea y junto a ti, hacemos que las cosas sucedan!</p>
+            <p class="text-right"><a class="button" href="/team">Conocenos</a></p>
+        </div>
+        <div class="medium-6 columns text-center">
+            <img class="th" src="{{STATIC_URL}}img/home/team_01.jpg" alt="Somos una Agencia de Desarrollo y Diseño Web Autodidactas y Apasionados de la web">
+        </div>
+    </section>
+    
+</section>
+{% endblock %}
 
 

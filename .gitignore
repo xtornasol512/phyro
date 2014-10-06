@@ -2,6 +2,7 @@
 *.pyc
 *.db
 front-end/temp/
+front-end/css/prefixed/
 back-end/temp/
 temp/
 node_modules/
