@@ -28,9 +28,9 @@ urlpatterns=patterns('home.views',
     url(r'^luciano/$', 'luciano'),
     #REDirects
     url(r'^blog/$', 'blogRedirect'),
-    url(r'^facebook/$', 'blogRedirect'),
-    url(r'^twitter/$', 'blogRedirect'),
-    url(r'^pluse/$', 'blogRedirect'),
+    url(r'^facebook/$', 'facebookRedirect'),
+    url(r'^twitter/$', 'twitterRedirect'),
+    url(r'^g\+/$', 'gplusRedirect'),
     url(r'^map/$', 'blogRedirect'),
     url(r'^fcq/$', 'blogRedirect'),
 

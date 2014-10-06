@@ -64,3 +64,16 @@ def luciano(request):
 def landing(request):
     return render_to_response('home/index.html',
                           context_instance=RequestContext(request))
+
+#REdirects
+def blogRedirect(request):
+    return redirect('https://blog.phyroserver.com')
+
+def twitterRedirect(request):
+    return redirect('https://twitter.com/PhyroServer')
+
+def facebookRedirect(request):
+    return redirect('https://www.facebook.com/pages/Phyro-Server-Tehuac%C3%A1n/290497264370516?fref=ts')
+
+def gplusRedirect(request):
+    return redirect('https://plus.google.com/+PhyroServerTehuac%C3%A1n/posts')
