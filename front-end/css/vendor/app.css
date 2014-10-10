@@ -4929,22 +4929,22 @@ kbd {
   color: #333333;
 }
 
-/* line 18, ../bower_components/foundation/scss/foundation/components/_magellan.scss */
+/* line 20, ../bower_components/foundation/scss/foundation/components/_magellan.scss */
 [data-magellan-expedition], [data-magellan-expedition-clone] {
-  background: white;
+  background: rgba(97, 97, 97, 0.8);
   z-index: 50;
   min-width: 100%;
-  padding: 10px;
+  padding: 0px;
 }
-/* line 24, ../bower_components/foundation/scss/foundation/components/_magellan.scss */
+/* line 26, ../bower_components/foundation/scss/foundation/components/_magellan.scss */
 [data-magellan-expedition] .sub-nav, [data-magellan-expedition-clone] .sub-nav {
   margin-bottom: 0;
 }
-/* line 26, ../bower_components/foundation/scss/foundation/components/_magellan.scss */
+/* line 28, ../bower_components/foundation/scss/foundation/components/_magellan.scss */
 [data-magellan-expedition] .sub-nav dd, [data-magellan-expedition-clone] .sub-nav dd {
   margin-bottom: 0;
 }
-/* line 27, ../bower_components/foundation/scss/foundation/components/_magellan.scss */
+/* line 29, ../bower_components/foundation/scss/foundation/components/_magellan.scss */
 [data-magellan-expedition] .sub-nav a, [data-magellan-expedition-clone] .sub-nav a {
   line-height: 1.8em;
 }

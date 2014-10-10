@@ -10,35 +10,35 @@ def index_view(request):
                           context_instance=RequestContext(request))
 
 def loqueHacemos(request):
-    return render_to_response('home/index.html',
+    return render_to_response('loquehacemos/lo-que-hacemos.html',
                           context_instance=RequestContext(request))
 
 def uxDesign(request):
-    return render_to_response('home/index.html',
+    return render_to_response('loquehacemos/ux-design.html',
                           context_instance=RequestContext(request))
 
 def eCommerce(request):
-    return render_to_response('home/index.html',
+    return render_to_response('loquehacemos/ecommerce.html',
                           context_instance=RequestContext(request))
 
 def webSites(request):
-    return render_to_response('home/index.html',
+    return render_to_response('loquehacemos/websites.html',
                           context_instance=RequestContext(request))
 
 def marketingOnline(request):
-    return render_to_response('home/index.html',
+    return render_to_response('loquehacemos/mkt-online.html',
                           context_instance=RequestContext(request))
 
 def appWeb(request):
-    return render_to_response('home/index.html',
+    return render_to_response('loquehacemos/appWeb.html',
                           context_instance=RequestContext(request))
 
 def portafolio(request):
-    return render_to_response('home/index.html',
+    return render_to_response('ourWork/nuestro-trabajo.html',
                           context_instance=RequestContext(request))
 
 def contacto(request):
-    return render_to_response('home/index.html',
+    return render_to_response('home/contacto.html',
                           context_instance=RequestContext(request))
 
 def aboutUS(request):
@@ -67,7 +67,7 @@ def landing(request):
 
 #REdirects
 def blogRedirect(request):
-    return redirect('https://blog.phyroserver.com')
+    return redirect('http://blog.phyroserver.com')
 
 def twitterRedirect(request):
     return redirect('https://twitter.com/PhyroServer')

@@ -2,6 +2,50 @@
 body, h1, h2, h3, h4, h5, p{
     font-weight:300;
 }
+.primaryC{
+    color: #d0233c;
+}
+.sFull{
+    height: 100vh; 
+}
+.zeroM{
+    margin: 0px;
+}
+.bg-laptop{
+    background: url(/static/img/whatwedo/website_03.jpg) 80% 0% no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#websites{
+    background: url(/static/img/whatwedo/website_03.jpg) 80% 0% no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh; 
+}
+#ecommerce{
+    background: url(/static/img/whatwedo/website_02.jpg) 80% 0% no-repeat;
+    background-size: cover; 
+    background-attachment: fixed;
+    height: 100vh;
+}
+#ux-design{
+    background: url(/static/img/whatwedo/website_03.jpg) 80% 0% no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh; 
+}
+#mkt-online{
+    background: url(/static/img/whatwedo/website_02.jpg) 80% 0% no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh; 
+}
+#appWeb{
+    background: url(/static/img/whatwedo/website_03.jpg) 80% 0% no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh; 
+}
 .medium{
     font-size: 2em;
 }
@@ -9,8 +53,12 @@ body, h1, h2, h3, h4, h5, p{
     font-size: 4em;
 }
 .padding-top{
-    padding-top: 2em;
+    padding-top: 2.5em;
 }
+.padding-top-large{
+    padding-top: 5em;
+}
+
 /*  
 .top-bar {
 box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.18);

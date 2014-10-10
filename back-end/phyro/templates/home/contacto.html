@@ -1,0 +1,82 @@
+{% extends "home/contacto_SEO.html" %}
+{% block contenido %}
+<header>
+    <section class="row">
+        <div class="medium-12 columns text-center">
+            <h1>Contactanos</h1>
+            <h3>¡Hagamos <em class="primaryC">algo increíble</em> Juntos!</h3>
+        </div>
+    </section>
+</header>
+<section class="padding-top">
+  <article class="row">
+    <div class="small-12 columns">
+      <form action="" name="Contact">
+          <fieldset>
+            <legend>Contacto</legend>
+            <div class="row">
+                <div class="large-6 columns text-center padding-top">
+                    <h4>Descubre cuál será tu siguiente gran proyecto y ponte en contacto con nosotros</h4>
+                    <strong>Nos gustaría saber acerca de tu increíbles ideas y convertirlo en un gran proyecto</strong>
+                    
+                </div>
+                <div class="large-6 columns">
+                    <div class="row collapse">
+                        <div class="small-3 large-2 columns">
+                          <span class="prefix">Nombre</span>
+                        </div>
+                        <div class="small-9 large-10 columns">
+                          <input type="text" name="nombreCto" placeholder="Tu nombre aquí...">
+                        </div>
+                      </div>
+                    <div class="row collapse">
+                        <div class="small-3 large-2 columns">
+                          <span class="prefix">Email</span>
+                        </div>
+                        <div class="small-9 large-10 columns">
+                          <input type="email" name="emailCto" placeholder="Tu email aquí...">
+                        </div>
+                      </div>
+                    <div class="row collapse">
+                        <div class="small-3 large-2 columns">
+                          <span class="prefix">Telefono</span>
+                        </div>
+                        <div class="small-9 large-10 columns">
+                          <input type="tel" name="telCto" placeholder="Tu número telefonico aquí...">
+                        </div>
+                      </div>
+                    <div class="row">
+                        <div class="large-12 columns">
+                          <label>Escoge un Tipo de Idea
+                            <select>
+                              <option value="website">Página Web</option>
+                              <option value="ecommerce">Ecommerce</option>
+                              <option value="Diseño UX">Diseño UX</option>
+                              <option value="mkt-online">Marketing Online</option>
+                              <option value="appWeb">Aplicacion Web</option>
+                            </select>
+                          </label>
+                        </div>
+                      </div>
+                </div>
+                
+                
+                <div class="small-12 columns">
+                    <label>Aquí escribenos tus comentarios
+                        <textarea rows="4" placeholder="Aquí escribe tu comentario..."></textarea>
+                      </label>
+                </div>
+                <div class="small-6 columns">
+                    <button class="expand round success">Enviar</button>
+                </div>
+                <div class="small-6 columns">
+                    <button class="expand round secondary">Ver el mapa</button>
+                </div>
+            </div>
+          </fieldset>
+      </form>
+    </div>
+  </article>
+</section>
+    
+{% endblock contenido %}
