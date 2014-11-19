@@ -8,8 +8,9 @@ nav h4 a img{
 
 footer{
     background: #3d5fa2;
+
 }
-footer h3 a, footer h4 a, footer h5 a, footer h5 {
+footer h2, footer h3 a, footer h4 a, footer h5 a, footer h5 {
     color: #fff;
     -webkit-transition: .6s ease;
             transition: .6s ease;
@@ -26,12 +27,11 @@ footer h4 a:hover{
 
 }
 
-#foo {
-    
-    box-shadow: inset 0px 82px 222px -5px rgba(61,95,162,1);
+#foo { 
     background: rgba(245, 241, 245, 0.8);
     background: #ebe9e5 url(/static/img/phyro.location_01.jpg) no-repeat 50% 0%;
     background-size: cover;
+    box-shadow: inset 0px 82px 222px -5px rgba(61,95,162,1);
     height: 600px;
     padding: 0;
 }

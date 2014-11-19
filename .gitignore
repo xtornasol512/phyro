@@ -1,10 +1,13 @@
 *~
 *.pyc
 *.db
+
 front-end/temp/
 front-end/css/prefixed/
 back-end/temp/
 temp/
 node_modules/
 back-end/phyro/phyrosite/settings_local.py
+back-end/phyro/phyro_render/
+
 

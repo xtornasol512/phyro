@@ -1,20 +1,38 @@
 {% extends "home/index_SEO.html" %}
 {% block contenido %}
 <header class="padding-top">
-    <section class="row ">
+    <section class="row sFull header-index">
         <div class="small-12 medium-8 medium-centered columns text-center padding-top">
-            <h5 style="color:gray">Phyro | Estudio Creativo Dígital</h5>
+            <h5 style="color:gray;"><strong>Phyro | Estudio Creativo Dígital</strong></h5>
             <h2>DESARROLLAMOS</h2>
-            <h2>TUS</h2>
-            <h2><strong>IDEAS</strong></h2>
+            <h2><strong>TUS IDEAS</strong></h2>
             <hr>
             <h5>Y las herramientas que necesites para:</h5>
-                
-            <h5><a href="#"><strong id="toolPhyro">Encontrar nuevos mercados</strong></a></h5>
-            <p><a href="/contacto" class="button round zeroM CTA"><strong>LLAMANOS</strong></a></p>
-            <p><a href="/contacto" class="button round zeroM CTA"><strong>LO QUE HACEMOS</strong></a></p>
+            <ul class="toolPhyro" data-orbit 
+                  data-options="animation_speed:800;
+                  timer_speed: 2500;
+                  slide_number: false;
+                  pause_on_hover: false;
+                  navigation_arrows:false;
+                  bullets:true;">
+                <li><h3><a href="#"><strong>ENCONTRAR NUEVOS MERCADOS</strong></a></h3></li>
+                <li><h3><a href="#"><strong>REDISEÑAR TU SITIO WEB</strong></a></h3></li>
+                <li><h3><a href="#"><strong>CREAR TU PRIMER TIENDA EN LÍNEA</strong></a></h3></li>
+            </ul>
+
+            <div class="row">
+                <div class="small-6 columns">
+                    <a href="/contacto" class="button round expand zeroM CTA"><strong>LLAMANOS</strong></a>
+                </div>
+                <div class="small-6 columns">
+                    <a href="/lo-que-hacemos" class="button round expand zeroM CTA"><strong>CONOCENOS</strong></a>
+                </div>
+            </div>
+            
+            
 
         </div>
+
     </section>
     
 </header>
@@ -25,7 +43,7 @@
             <h5 class="tBold">Un <a href="/team" >Equipo versatil</a> de <a href="/lo-que-hacemos/design-ux">Diseño</a>, <a href="/lo-que-hacemos/aplicaciones-web">Desarrollo</a> y <a href="/lo-que-hacemos/marketing-online">Marketing Dígital</a></h5>
             <p class="text-justify tBold">Somos un equipo de buenos amigos y profesionales, buscamos gente talentosa que tiene esa idea que hara crecer su negocio, y ahi estamos nosotros para ayudarte. ¡Trabajamos de una forma ágil, profesional y sobre todo divertida!</p>
             <p class="tBold">¡Escuchamos tu idea y junto a ti, hacemos que las cosas sucedan!</p>
-            <p class="text-right"><a class="button secondary" href="/team">CONOCENOS</a></p>
+            <p class="text-right small-only-text-center"><a class="button secondary" href="/team">CONOCENOS</a></p>
         </div>
         <div class="medium-6 columns text-center">
             <img class="th" src="{{STATIC_URL}}img/home/team_01.jpg" alt="Somos una Agencia de Desarrollo y Diseño Web Autodidactas y Apasionados de la web">
@@ -39,7 +57,7 @@
             <h2>¿Cual es tu idea?</h2>
             <h5 class="tBold">Desde una <a href="/lo-que-hacemos/websites">página web</a>, hasta una <a href="/lo-que-hacemos/ecommerce">tienda en linea</a></h5>
             <p class="tBold">Acercate a <a href="/team">nuestro equipo de trabajo</a> y conoce todas nuestras habilidades que seguro encajaran en tu Proyecto</p>
-            <p><a class="button round" href="/contacto">CONTACTANOS</a></p>
+            <p class="small-only-text-center"><a class="button round" href="/contacto">CONTACTANOS</a></p>
         </div>
     </article>
 </section>
