@@ -27,14 +27,6 @@ footer h4 a:hover{
 
 }
 
-#foo { 
-    background: rgba(245, 241, 245, 0.8);
-    background: #ebe9e5 url(/static/img/phyro.location_01.jpg) no-repeat 50% 0%;
-    background-size: cover;
-    box-shadow: inset 0px 82px 222px -5px rgba(61,95,162,1);
-    height: 600px;
-    padding: 0;
-}
 .nav-movil{
     font-weight: 900;
     margin-bottom: 0;
@@ -69,11 +61,17 @@ footer h4 a:hover{
 .nav-menu:hover{
     color: rgba(100,100,100,0.8);
 }
+.orange:hover{
+    color: #E76914;
+}
 .blue:hover{
     color: #2ba6cb;
 }
 .green:hover{
     color: #43ac6a;
+}
+.yellow:hover{
+    color: #FFD800;
 }
 .small{
     font-size: 1em;
@@ -86,8 +84,15 @@ footer h4 a:hover{
     margin-left: .4em;
 }
 .primaryC{
-    
     color: #d0233c;
+}
+.orbit-timer {
+left: -10000px;
+top: auto;
+height: 1px;
+overflow: hidden;
+position: absolute;
+width: 1px;
 }
 .sFull{
     height: 100vh; 
@@ -162,4 +167,12 @@ footer h4 a:hover{
 .contact{
     padding-top: 3em;
     padding-bottom: 5em;
+}
+#foo { 
+    background: rgba(245, 241, 245, 0.8);
+    background: #ebe9e5 url(/static/img/phyro.location_01.jpg) no-repeat 50% 0%;
+    background-size: cover;
+    box-shadow: inset 0px 82px 222px -5px rgba(61,95,162,1);
+    height: 600px;
+    padding: 0;
 }
