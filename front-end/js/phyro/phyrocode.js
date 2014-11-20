@@ -6,6 +6,6 @@ $(document).foundation({
   threshold: 10 , // how many pixels until the magellan bar sticks, 0 = auto
   destination_threshold: 20, // pixels from the top of destination for it to be considered active
   throttle_delay: 50, // calculation throttling to increase framerate
-  fixed_top: 60, // top distance in pixels assigned to the fixed element on scroll
+  fixed_top: 72, // top distance in pixels assigned to the fixed element on scroll
 }
 });

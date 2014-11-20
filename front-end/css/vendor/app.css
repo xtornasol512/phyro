@@ -4932,7 +4932,7 @@ kbd {
 /* line 20, ../bower_components/foundation/scss/foundation/components/_magellan.scss */
 [data-magellan-expedition], [data-magellan-expedition-clone] {
   background: rgba(97, 97, 97, 0.8);
-  z-index: 50;
+  z-index: 72;
   min-width: 100%;
   padding: 0px;
 }
