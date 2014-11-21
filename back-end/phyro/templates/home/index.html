@@ -2,24 +2,30 @@
 {% block contenido %}
 <header class="padding-top header-index">
     <section class="row sFull">
-        <div class="small-12 medium-8 medium-centered columns text-center padding-top">
+        <div id="head"class="small-12 medium-8 medium-centered columns text-center padding-top">
             <div class="padding-top show-for-medium-up"></div>
-            <h5 style="color:gray;"><strong>Phyro | Estudio Creativo Dígital</strong></h5>
-            <h2>DESARROLLAMOS</h2>
-            <h2><strong>TUS IDEAS</strong></h2>
+            <h5><strong>Phyro | Estudio Creativo Dígital</strong></h5>
+            <div class="show-for-medium-up">
+                <h2 class="h2Text">DESARROLLAMOS</h2>
+                <h2 class="h2Text"><strong>TUS IDEAS</strong></h2>
+            </div>
+            <div class="show-for-small-only">
+                <h2>DESARROLLAMOS</h2>
+                <h2><strong>TUS IDEAS</strong></h2>
+            </div>
             <hr>
-            <h5 class="show-for-medium-up">Y las herramientas que necesites para:</h5>
-            <h5 class="show-for-small-only" style="color:white;">Y las herramientas que necesites para:</h5>
+            <div class="show-for-medium-up padding-top"></div>
+            <h5 style="color:#d0233c;">Y las herramientas que necesites para:</h5>
             <ul class="toolPhyro" data-orbit 
                   data-options="animation_speed:800;
-                  timer_speed: 2500;
+                  timer_speed: 2700;
                   slide_number: false;
                   pause_on_hover: false;
                   navigation_arrows:false;
                   bullets:true;">
-                <li><h3><a href="#"><strong>ENCONTRAR NUEVOS MERCADOS</strong></a></h3></li>
-                <li><h3><a href="#"><strong>REDISEÑAR TU SITIO WEB</strong></a></h3></li>
-                <li><h3><a href="#"><strong>CREAR TU PRIMER TIENDA EN LÍNEA</strong></a></h3></li>
+                <li><h3><strong>ENCONTRAR NUEVOS MERCADOS</strong></h3></li>
+                <li><h3><strong>REDISEÑAR TU SITIO WEB</strong></h3></li>
+                <li><h3><strong>CREAR TU PRIMER TIENDA EN LÍNEA</strong></h3></li>
             </ul>
             <div class="row">
                 <div class="small-6 columns">
@@ -35,9 +41,14 @@
 <section class="padding-top ">
     <article class="row">
         <div class="large-6 columns text-center ">
-            <h3><a href="/team">QUIENES SOMOS</a></h3>
+            <h3><a href="/team"><strong>QUIENES SOMOS</strong></a></h3>
             <h2>DESARROLLAMOS LAS IDEAS</h2>
-            <p>Phyro es un grupo de amigos a los que nos apasiona la tecnología, cada miembro del equipo esta especialiado en areas:  </p>
+            <div class="row">
+                <div class="medium-8 medium-centered large-12 columns">
+                    <p>Phyro es un grupo de amigos a los que nos apasiona la tecnología, cada miembro del equipo esta especialiado en areas:</p>
+                </div>
+            </div>
+            
             <ul class="toolPhyro" data-orbit 
                   data-options="animation_speed:800;
                   timer_speed: 2500;
