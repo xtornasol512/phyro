@@ -110,40 +110,11 @@ width: 1px;
 .zeroM{
     margin: 0px;
 }
-.bg-laptop{
-    background: url(/static/img/whatwedo/website_03.jpg) 80% 0% no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-}
 #websites{
-    background: url(/static/img/whatwedo/website_03.jpg) 80% 0% no-repeat;
+    /*background: url(/static/img/whatwedo/website_03.jpg) 80% 0% no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    height: 100vh; 
-}
-#ecommerce{
-    background: url(/static/img/whatwedo/website_02.jpg) 80% 0% no-repeat;
-    background-size: cover; 
-    background-attachment: fixed;
-    height: 100vh;
-}
-#ux-design{
-    background: url(/static/img/whatwedo/website_03.jpg) 80% 0% no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    height: 100vh; 
-}
-#mkt-online{
-    background: url(/static/img/whatwedo/website_02.jpg) 80% 0% no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    height: 100vh; 
-}
-#appWeb{
-    background: url(/static/img/whatwedo/website_03.jpg) 80% 0% no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    height: 100vh; 
+    height: 100vh; */
 }
 .medium{
     font-size: 2em;
@@ -159,6 +130,10 @@ width: 1px;
 .large{
     font-size: 4em;
 }
+.white{
+    color:#fff;
+    text-shadow: 0px 0px 10px rgba(144, 144, 144, 1);
+}
 .menu-padding{
     padding-top: 1em;
     padding-bottom: .1em;
@@ -173,9 +148,24 @@ width: 1px;
     padding-top: 3em;
     padding-bottom: 5em;
 }
+#ecommerce{
+    background: url(/static/img/whatwedo/ecommerce_01.jpg) no-repeat 50% 50%;
+    background-size: cover;
+}
+#websites{
+    background: url(/static/img/whatwedo/webDevelopment_01.jpg) no-repeat 90% 50%;
+    background-size: cover;
+}
+#mkt-online{
+    background: url(/static/img/whatwedo/marketingOnline_01.jpg) no-repeat 90% 50%;
+    background-size: cover;
+}
+#appWeb{
+    background: url(/static/img/whatwedo/aplicacionesWeb_01.jpg) no-repeat 90% 50%;
+    background-size: cover;
+}
 #foo { 
     background: url(/static/img/phyro.location_01.jpg) no-repeat 50% 0%;
     background-size: cover;
-    height: calc(100vh - 72px);
-    padding: 0;
+    
 }
