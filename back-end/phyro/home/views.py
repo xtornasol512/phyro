@@ -50,7 +50,7 @@ def aboutUS(request):
                           context_instance=RequestContext(request))
 
 def team(request):
-    return render_to_response('home/index.html',
+    return render_to_response('team/team.html',
                           context_instance=RequestContext(request))
 
 def alen(request):

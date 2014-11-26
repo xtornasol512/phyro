@@ -9,3 +9,9 @@ $(document).foundation({
   fixed_top: 72, // top distance in pixels assigned to the fixed element on scroll
 }
 });
+
+$(document).ready( function() {
+    $('.menu').smint({
+        'scrollSpeed' : 1000
+    });
+});
